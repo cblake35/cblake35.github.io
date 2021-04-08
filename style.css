@@ -1,0 +1,99 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Overpass', 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #2d2d2d;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.icon {
+    width: 35px;
+    padding: 12px 20px 5px 20px;
+    background-color: #e33e42;
+    margin: 0;
+}
+
+.org-name p {
+    color: white;
+    padding: 2px 15px 0 20px;
+    font-size: 20px;
+    font-family: 'Crimson Text',"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+.org-name a {
+    text-decoration: none;
+}
+
+.icon-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+}
+
+.links-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    padding: 25px 0 0 105px;
+    float: right;
+}
+
+.links-wrapper a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 0 15px 0 15px;
+    font-family: 'Overpass';
+    font-weight: bold;
+    outline: none;
+}
+
+.schedule-button {
+    display: inline-block;
+    background-color: #348db9;
+    border-left: 4px solid white;
+    width: 225px;
+    padding: 25px 10px 0 10px;
+    text-align: center;
+}
+
+.schedule-button a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Overpass';
+    font-weight: bold;
+    outline: none;
+}
+
+.apply-button {
+    display: inline-block;
+    background-color: #e33e42;
+    border-left: 4px solid white;
+    width: 135px;
+    padding: 25px 10px 0 10px;
+    text-align: center;
+}
+
+.apply-button a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 0 10px 0 10px;
+    font-family: 'Overpass';
+    font-weight: bold;
+    outline: none;
+}
+
+.home-wrapper video {
+    margin: 0;
+    width: 100%;
+}
+
