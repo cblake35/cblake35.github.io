@@ -97,3 +97,116 @@ nav {
     width: 100%;
 }
 
+.down-chevron {
+    position: absolute;
+    bottom: -90px;
+    font-size: 65px;
+    left: 48%;
+}
+
+.down-chevron a i {
+    color: #e0dede;
+}
+
+.intro {
+    position: absolute;
+    top: 450px;
+    left: 25%;
+}
+
+.intro h1 {
+    font-size: 55px;
+    font-weight: 900;
+    word-spacing: 7px;
+    background-color: #000000ab;
+    color: white;
+    padding: 5px 25px 5px 25px;
+    margin: 20px 0 20px 0;
+    font-family: 'Overpass', Helvetica, Arial, sans-serif;
+}
+
+.intro a {
+    background: #e33e42;
+    border: 0;
+    color: white;
+    font-size: 32px;
+    padding: 5px 25px 5px 25px;
+    font-family: 'Overpass', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+.chat-bubbles {
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+}
+
+.chat-bubbles a {
+    color: white;
+    text-decoration: none;
+}
+
+.chat-box-1 {
+    width: 245px;
+    background-color: black;
+    margin: 0 0 15px;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+}
+
+.chat-box-1:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #000000;
+    border-top: 10px solid #000000;
+    border-bottom: 10px solid transparent;
+    bottom: 40px;
+    left: 225px;
+}
+
+.chat-box-1 i {
+    position: absolute;
+    color: #0000008c;
+    left: 242px;
+    bottom: 115px;
+    
+}
+
+.chat-box-1 h3 {
+    margin: 0 15px 0 15px;
+    padding: 10px 0 0 0;
+}
+
+.chat-box-1 p {
+    margin: 0 15px 0 15px;
+    padding: 0 0 10px 0;
+}
+.chat-box-2 {
+    display: inline-block;
+    width: 250px;
+    background-color: #e33e42;
+    border-radius: 3px;
+    padding: 5px 0 5px 0;
+}
+
+.chat-box-2 a {
+    color: white;
+}
+
+.chat-box-2 p {
+    width: 80%;
+    margin: 0;
+    display: inline-block;
+    padding: 0 0 0 15px;
+}
+
+.chat-box-2 i{
+    width: 10%;
+    margin: 1 0 0 0;
+    font-size: 20px;
+    padding: 5px 5px 5px 0;
+}
+
