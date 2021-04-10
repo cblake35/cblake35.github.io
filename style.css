@@ -22,8 +22,9 @@ nav {
 
 .org-name p {
     color: white;
-    padding: 2px 15px 0 20px;
     font-size: 20px;
+    margin: 0;
+    padding: 25px 0 25px 20px;
     font-family: 'Crimson Text',"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 }
 
@@ -49,7 +50,7 @@ nav {
     text-decoration: none;
     color: white;
     font-size: 14px;
-    padding: 0 15px 0 15px;
+    padding: 25px 15px 25px 15px;
     font-family: 'Overpass';
     font-weight: bold;
     outline: none;
@@ -71,6 +72,7 @@ nav {
     font-family: 'Overpass';
     font-weight: bold;
     outline: none;
+    padding: 25px 0 25px 0;
 }
 
 .apply-button {
@@ -86,11 +88,16 @@ nav {
     text-decoration: none;
     color: white;
     font-size: 14px;
-    padding: 0 10px 0 10px;
+    padding: 25px 10px 25px 10px;
     font-family: 'Overpass';
     font-weight: bold;
     outline: none;
 }
+
+.home-wrapper {
+    background-color: #efefef;
+}
+
 
 .home-wrapper video {
     margin: 0;
@@ -210,3 +217,95 @@ nav {
     padding: 5px 5px 5px 0;
 }
 
+#course-info {
+    background-color: #efefef;
+    padding: 75px 0 80px 0;
+}
+
+#course-info h1 {
+    text-align: center;
+    font-size: 62px;
+    font-weight: 800;
+    word-spacing: 5px;
+    font-family: 'Overpass', Helvetica, Arial, sans-serif;
+    color: #348db9;
+    margin: 0;
+}
+
+.course-info-cards {
+    display: flex;
+    flex-direction: row;
+    padding: 0 18% 0 18%;
+}
+
+.course-info-cards h2 {
+    color: #2d2d2d;
+    font-size: 36px;
+}
+
+.course-info-cards p {
+    color: #676767;
+    font-size: 21px;
+}
+
+.call-to-action {
+    background-color: #e33e42;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.call-to-action p {
+    color: white;
+    padding: 8px 0 8px 0;
+    margin: 0;
+}
+
+.card-1, .card-2, .card-3 {
+    background-color: white;
+    margin: 0 8px 0 8px;
+    position: relative;
+    width: 33%;
+    text-decoration: none;
+}
+
+.card-wrapper {
+    padding: 0 30px 80px 30px; 
+}
+
+.card-wrapper h2{
+    line-height: 45px;
+    margin: 20px 0 20px 0;
+}
+
+.card-wrapper p {
+    margin: 0 0 50px 0;
+}
+
+
+.about-efa {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 25% 50px 25%;
+}
+
+.img-wrapper {
+    padding-top: 35px;
+}
+
+.about-info-wrapper {
+    padding: 0 40px 0 40px;
+}
+.about-efa h2 {
+    color: #348db9;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.about-efa p {
+    color: #676767;
+    font-size: 21px;
+    font-weight: 300;
+}
